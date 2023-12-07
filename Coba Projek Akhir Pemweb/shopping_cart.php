@@ -69,7 +69,7 @@ if (isset($_POST['jumlahProduk'])) {
             ?>
 
             <tr>
-                <td colspan="4" align="right">Total Harga:</td>
+                <td colspan="4" align="center">Total Harga:</td>
                 <td><?php echo $totalHarga; ?></td>
             </tr>
         </table>

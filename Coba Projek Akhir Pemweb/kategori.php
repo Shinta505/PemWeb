@@ -25,6 +25,8 @@
     <?php 
         }
     ?>
-    </table>
+    </table> 
+    <br>
+    <a href="shopping_cart.php">Lihat Keranjang</a>
 </body>
 </html>
