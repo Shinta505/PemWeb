@@ -31,7 +31,7 @@ if (isset($_POST['jumlahProduk'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
+    <title>Halaman 4</title>
 </head>
 <body>
     <h2>Shopping Cart</h2>
@@ -73,6 +73,11 @@ if (isset($_POST['jumlahProduk'])) {
                 <td><?php echo $totalHarga; ?></td>
             </tr>
         </table>
+        <br>
+        <form action="checkout.php" method="POST">
+            <button type="submit" name="checkout">Checkout</button>
+        </form>
+
         <?php
     } else {
         echo "<p>Shopping cart masih kosong.</p>";
